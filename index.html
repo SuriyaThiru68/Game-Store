@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🎮 Game Store UI</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Sidebar Navigation -->
+  <div class="sidebar">
+    <a href="#home" class="nav-icon" title="Home">🏠</a>
+    <a href="#games" class="nav-icon" title="Games">🕹️</a>
+    <a href="#downloads" class="nav-icon" title="Downloads">⬇️</a>
+    <a href="#community" class="nav-icon" title="Community">💬</a>
+    <a href="#contact" class="nav-icon" title="Contact">📧</a>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main">
+
+    <!-- Topbar -->
+    <div class="topbar" id="home">
+      <div class="store-name">🎮 Game Store</div>
+      <input type="text" class="search" placeholder="Search apps, games..." />
+      <div class="profile-pic"></div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero">
+      <div class="main-banner">
+        <h2>XBOX GAME PASS</h2>
+        <p>Play new games on day one. Access 100+ high-quality titles!</p>
+        <button><a href="https://www.xbox.com/en-US/xbox-game-pass" target="_blank">See Details</a></button>
+      </div>
+      <div class="carousel">
+        <img src="https://5.imimg.com/data5/SELLER/Default/2020/11/XP/OL/UI/51145740/pc-games-dvd.jpg" class="carousel-slide active" />
+        <img src="https://assets-prd.ignimgs.com/2022/09/23/top25modernpcgames-blogroll-1663951042311.jpg" class="carousel-slide" />
+        <img src="https://img.gg.deals/e4/ec/b86047848b34d3a08d58cb0716a30c515fc6_1200cr630_Q100.jpg" class="carousel-slide" />
+      </div>
+    </div>
+
+    <!-- Games Section -->
+    <section id="games" class="game-grid">
+      <h2>Top Games</h2>
+
+      <!-- Game Cards -->
+      <div class="game-card">
+        <img src="https://wallpapers.com/images/hd/gta-5-landscape-art-2a58lbxzfpa0xjg7.jpg" />
+        <h3>GTA V</h3>
+        <p>Open-world action adventure.</p>
+        <button><a href="https://www.xbox.com/en-IN/games/store/grand-theft-auto-v-xbox-one/BPJ686W6S0NH/0001">Buy Now</a></button>
+      </div>
+
+      <div class="game-card">
+        <img src="https://wallpapers.com/images/featured/minecraft-landscape-8h44acokruk5k6fh.jpg" />
+        <h3>Minecraft</h3>
+        <p>Create your blocky world.</p>
+        <button><a href="https://www.xbox.com/en-IN/games/store/minecraft/9MVXMVT8ZKWC/0010">Buy Now</a></button>
+      </div>
+
+      <div class="game-card">
+        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/capsule_616x353.jpg" />
+        <h3>Forza Horizon 5</h3>
+        <p>Racing in Mexico’s open world.</p>
+        <button><a href="https://www.xbox.com/en-IN/games/store/forza-horizon-5/9NNX1VVR3KNQ/0010">Buy Now</a></button>
+      </div>
+
+      <div class="game-card">
+        <img src="https://upload.wikimedia.org/wikipedia/en/1/14/Halo_Infinite.png" />
+        <h3>Halo Infinite</h3>
+        <p>Master Chief returns in glory.</p>
+        <button><a href="https://www.xbox.com/en-IN/games/store/halo-infinite/9PP5G1F0C2MG">Buy Now</a></button>
+      </div>
+
+      <div class="game-card">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/730/capsule_616x353.jpg" />
+        <h3>CS:GO 2</h3>
+        <p>Ultimate tactical shooter.</p>
+        <button><a href="https://store.steampowered.com/app/730/CounterStrike_2/">Buy Now</a></button>
+      </div>
+
+      <div class="game-card">
+        <img src="https://cdn.akamai.steamstatic.com/steam/apps/1245620/capsule_616x353.jpg" />
+        <h3>Elden Ring</h3>
+        <p>Dark fantasy adventure.</p>
+        <button><a href="https://en.bandainamcoent.eu/elden-ring/elden-ring">Buy Now</a></button>
+      </div>
+      <div class="game-card">
+        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/570/header.jpg?t=1748018387" />
+        <h3>Dota 2</h3>
+        <p>World-famous competitive MOBA experience</p>
+        <button><a href="https://store.steampowered.com/app/570/Dota_2/">Buy Now</a></button>
+      </div>
+      <div class="game-card">
+        <img src="https://image.api.playstation.com/vulcan/ap/rnd/202504/1604/b4b87eb735d738ae903e018ea687de1778dc4b53d05b3edf.png" />
+        <h3>PUBG</h3>
+        <p>100 players. One ultimate survivor.</p>
+        <button><a href="https://store.steampowered.com/app/578080/PUBG_BATTLEGROUNDS/">Buy Now</a></button>
+      </div>
+      <div class="game-card">
+        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2507950/f37d719a436f46c6746183362a968e177a478388/capsule_616x353_alt_assets_3.jpg?t=1750334802" />
+        <h3>Delta Force</h3>
+        <p>Classic military first-person shooter action</p>
+        <button><a href="https://seagm-media.seagmcdn.com/material/2791.jpg?x-oss-process=image/resize,w_480">Buy Now</a></button>
+      </div>
+      <div class="game-card">
+        <img src="https://cdn1.epicgames.com/spt-assets/5dcd88f4e2094a698ebffa43438edc33/apex-legends-15tbt.jpg" />
+        <h3>Apex Legends</h3>
+        <p>Fast-paced battle royale with legends</p>
+        <button><a href="https://store.steampowered.com/app/1172470/Apex_Legends/">Buy Now</a></button>
+      </div>
+      <div class="game-card">
+        <img src="https://sm.ign.com/ign_in/cover/c/cyberpunk-/cyberpunk-2077-ultimate-edition_ywdp.jpg" />
+        <h3>Cyberpunk 2077</h3>
+        <p>Futuristic RPG in Night City</p>
+        <button><a href="https://www.cyberpunk.net/us/en/cyberpunk-2077">Buy Now</a></button>
+      </div>
+      <div class="game-card">
+        <img src="https://image.api.playstation.com/cdn/EP0006/CUSA05749_00/lOh528s3J3zcjOn8x8tn0iQyPlkIIfP7.png" />
+        <h3>STAR WARS</h3>
+        <p>Epic battles in a galaxy far</p>
+        <button><a href="https://www.ea.com/en-gb/games/starwars/battlefront/star-wars-battlefront-2">Buy Now</a></button>
+      </div>
+
+
+    </section>
+
+    <!-- Downloads Section -->
+    <section id="downloads" class="downloads">
+      <h2>Downloads</h2>
+      <div class="download-list">
+        <a href="#" class="download-link">Download GTA V Save File</a>
+        <a href="#" class="download-link">Minecraft Texture Pack</a>
+        <a href="#" class="download-link">Forza Car Pack</a>
+      </div>
+    </section>
+
+    <!-- Community Section -->
+    <section id="community" class="community">
+      <h2>Join Our Community</h2>
+      <p>Connect with other gamers, share tips, and join exclusive tournaments.</p>
+      <a href="#" class="join-btn">Join Discord</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Email Address" required />
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </div>
+
+  <script>
+    const slides = document.querySelectorAll(".carousel-slide");
+    let currentSlide = 0;
+    function showSlide(index) {
+      slides.forEach((slide, i) => slide.classList.toggle("active", i === index));
+    }
+    setInterval(() => {
+      currentSlide = (currentSlide + 1) % slides.length;
+      showSlide(currentSlide);
+    }, 3000);
+  </script>
+</body>
+</html>
